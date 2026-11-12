@@ -9,7 +9,7 @@
 ![SUMO](https://img.shields.io/badge/SUMO-traffic%20simulator-2E7D32?style=flat-square)
 ![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
 
-<a href="https://colab.research.google.com/github/minudakaliyanage/RTCW-Middle/blob/master/notebooks/thorpe1997_sarsa_and_liang2019_3dqn.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
+<a href="https://colab.research.google.com/github/minudakaliyanage/RL-Traffic-Light-Control/blob/master/notebooks/thorpe1997_sarsa_and_liang2019_3dqn.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
 
 <img src="assets/sarsa_policy_ns_green.png" width="820" alt="Learned SARSA policy heatmap: switch or keep, by NS and EW vehicle counts"/>
 <br/><sub>Learned SARSA policy while North–South is green: switch vs keep for each combination of queue sizes</sub>
