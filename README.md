@@ -9,7 +9,7 @@
 ![SUMO](https://img.shields.io/badge/SUMO-traffic%20simulator-2E7D32?style=flat-square)
 ![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
 
-<a href="https://colab.research.google.com/github/minudakaliyanage/RTCW-Middle/blob/master/Full_code_1and2Joined.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
+<a href="https://colab.research.google.com/github/minudakaliyanage/RTCW-Middle/blob/master/notebooks/thorpe1997_sarsa_and_liang2019_3dqn.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
 
 <img src="assets/sarsa_policy_ns_green.png" width="820" alt="Learned SARSA policy heatmap: switch or keep, by NS and EW vehicle counts"/>
 <br/><sub>Learned SARSA policy while North–South is green: switch vs keep for each combination of queue sizes</sub>
@@ -57,9 +57,10 @@ The fixed-time baselines reproduce the paper's range, but the trained 3DQN agent
 
 | File | Description |
 |---|---|
-| `Full_code_1and2Joined.ipynb` | Both implementations end to end: SARSA, then SUMO setup, 3DQN training and evaluation |
-| `Liang_2019_SUMO_Colab.ipynb` | 3DQN + SUMO implementation on its own |
-| `tcs_middle.py` | Standalone 3DQN implementation with a lightweight Python traffic simulator (no SUMO needed) |
+| `notebooks/thorpe1997_sarsa_and_liang2019_3dqn.ipynb` | ⭐ Both implementations end to end: SARSA, then SUMO setup, 3DQN training and evaluation |
+| `notebooks/liang2019_3dqn_sumo.ipynb` | 3DQN + SUMO implementation on its own |
+| `src/liang2019_3dqn_standalone.py` | Standalone 3DQN implementation with a lightweight Python traffic simulator (no SUMO needed) |
+| `papers/` | Reference paper (Liang et al., 2019) |
 
 ## 🚀 Running
 
@@ -69,7 +70,7 @@ The fixed-time baselines reproduce the paper's range, but the trained 3DQN agent
 
 ```bash
 pip install numpy tensorflow matplotlib
-python tcs_middle.py
+python src/liang2019_3dqn_standalone.py
 ```
 
 ---
